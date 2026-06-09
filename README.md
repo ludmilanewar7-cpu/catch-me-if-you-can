@@ -10,7 +10,8 @@ This project asks a simple but uncomfortable question: can an AI reliably monito
 - `process_monitor.py` — Generation 2 Monitor, instruction-aware, sees both instruction and response
 - `dashboard.html` — Complete research findings rendered visually — open this in a browser
 - `gradient_mapper.py` — Gradient mapper testing six instruction variations from explicit to minimal
-- `experiments.py` — Master experiment runner, executes all three scenarios and saves results automatically
+- `run_all.py` — Master experiment runner, executes all three scenarios and saves results automatically
+- `experiments/` — Individual experiment files showing the research evolution run by run
 - `results/` — Original raw outputs from all experimental runs
 - `RESEARCH_NOTES.md` — Live research journal documenting findings as they emerged
 
